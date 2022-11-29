@@ -1,11 +1,13 @@
-
-import './assets/styles/custom.scss'
+import './assets/styles/custom.scss';
+import Navbar from './components/Navbar'
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <h1 className="">Hello Bootcamp</h1>
-  );
+    <>
+      <Navbar />
+    </>
+    );
 }
 
 export default App;
